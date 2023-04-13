@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3LK7J7T45L"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-3LK7J7T45L');
+</script>
+	<title>Company Logos</title>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="script.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <link rel="icon" href="https://em-content.zobj.net/thumbs/240/apple/325/crystal-ball_1f52e.png">
+</head>
+<body>
+
+	<table>
+		<thead>
+			<tr>
+				<th>Company URL</th>
+				<th>Clearbit URL</th>
+				<th>Company Logo</th>
+			</tr>
+		</thead>
+		<tbody id="company-table">
+			<tr>
+				<td><input type="text" class="company-url" placeholder="e.g. apple.com"></td>
+				<td><span class="clearbit-url"></span></td>
+				<td><img class="company-logo" src=""></td>
+			</tr>
+		</tbody>
+	</table>
+
+  <br>
+	<button id="add-row">Add Row</button>
+	<button id="add-bulk">Add Bulk</button>
+  <button id="reload">Start Over</button>
+  <br>
+	<p class="disclaimer">Built by <a href="https://www.linkedin.com/in/vivek-a-3275b523b/">Vivek</a>. Logos provided by <a href="https://clearbit.com">Clearbit</a>.</p>
